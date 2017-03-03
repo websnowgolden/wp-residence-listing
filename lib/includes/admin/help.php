@@ -18,6 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  * @since 3.0
  * @return void
  */
+// This is residence real estate 2017.3.3
 function epl_list_listings_contextual_help() {
 	$screen = get_current_screen();
 	if (  !in_array( ltrim($screen->id,'edit-'), epl_get_core_post_types()))
